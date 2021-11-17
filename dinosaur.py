@@ -12,9 +12,9 @@ tree_x = 550
 tree_y = 230
 x_velocity = 5
 y_velocity = 7
-background = pygame.image.load('dinosaur/background.jpg')
-dinosaur = pygame.image.load('dinosaur/dinosaur.png')
-tree = pygame.image.load('dinosaur/tree.png')
+background = pygame.image.load('background.jpg')
+dinosaur = pygame.image.load('dinosaur.png')
+tree = pygame.image.load('tree.png')
 WHITE = (255, 255, 255)
 RED = (255, 0, 0)
 clock = pygame.time.Clock()
@@ -23,8 +23,8 @@ score = 0
 font = pygame.font.SysFont('san', 20)
 font1 = pygame.font.SysFont('san', 40)
 pausing = False
-sound1 = pygame.mixer.Sound('dinosaur/tick.wav')
-sound2 = pygame.mixer.Sound('dinosaur/te.wav')
+sound1 = pygame.mixer.Sound('tick.wav')
+sound2 = pygame.mixer.Sound('te.wav')
 
 while running:
     clock.tick(60)
